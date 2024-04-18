@@ -1,2 +1,2 @@
 # Proyecto-Veterinaria-CAC
-Se desarrolla una Landin page de una Veterinaria.
+Se desarrolla una Landing page de una Veterinaria.
