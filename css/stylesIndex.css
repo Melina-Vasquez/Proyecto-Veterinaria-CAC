@@ -242,15 +242,15 @@ a:hover{
     flex-direction: column;
     justify-content: center;
     padding: 10%;
-    overflow: hidden; /* Evita el scroll horizontal */
+    overflow: hidden; 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .animaPlan:hover {
-    transform: scale(1.01); /* Escala el div al 105% de su tamaño original */
+    transform: scale(1.01);
     transition: 0.3s;
-    box-shadow: 5px 10px 110px rgba(233, 229, 229, 0.3), /* Añade una sombra al div */
-                5px 10px 110px rgba(0, 252, 252, 0.3); /* Añade un resplandor al div */
+    box-shadow: 5px 10px 110px rgba(233, 229, 229, 0.3), 
+                5px 10px 110px rgba(0, 252, 252, 0.3); 
 }
 
 
@@ -516,10 +516,10 @@ a:hover{
     }
     
     .animaPlan:hover {
-        transform: scale(1.01); /* Escala el div al 105% de su tamaño original */
+        transform: scale(1.01); 
         transition: 0.3s;
-        box-shadow: 5px 10px 110px rgba(233, 229, 229, 0.3), /* Añade una sombra al div */
-                    5px 10px 110px rgba(0, 252, 252, 0.3); /* Añade un resplandor al div */
+        box-shadow: 5px 10px 110px rgba(233, 229, 229, 0.3),
+                    5px 10px 110px rgba(0, 252, 252, 0.3); 
     }
     
 }
@@ -771,14 +771,14 @@ a:hover{
         flex-direction: column;
         justify-content: center;
         padding: 10%;
-        overflow: hidden; /* Evita el scroll horizontal */
+        overflow: hidden; 
         transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
     
     .animaPlan:hover {
-        transform: scale(1.01); /* Escala el div al 105% de su tamaño original */
+        transform: scale(1.01); 
         transition: 0.3s;
-        box-shadow: 5px 10px 110px rgba(233, 229, 229, 0.3), /* Añade una sombra al div */
-                    5px 10px 110px rgba(0, 252, 252, 0.3); /* Añade un resplandor al div */
+        box-shadow: 5px 10px 110px rgba(233, 229, 229, 0.3), 
+                    5px 10px 110px rgba(0, 252, 252, 0.3); 
     }
 }
