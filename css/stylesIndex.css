@@ -782,3 +782,62 @@ a:hover{
                     5px 10px 110px rgba(0, 252, 252, 0.3); 
     }
 }
+
+/*seccion quines somos*/
+.seccionContenido {
+    background-color: #1693A5;
+}
+
+.conteiner{
+    text-align: center;
+}
+.conteiner h2{
+    text-decoration: underline;    
+    color: rgb(172, 177, 177);
+    text-shadow: 5px 3px 10px rgb(2, 2, 2);
+}
+.imgprincipal {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .imgprincipal img {
+    max-width: 100%;
+    width: 50%; 
+    
+  }
+  .accordion-button {
+    background-color: #7ececa; /* $cian-500 */
+    color: #070606;
+    
+  }
+  .ubicacion{
+    background-color: #1693A5;
+  }
+  .ubicacion h2{
+    text-decoration: underline;    
+    color: rgb(172, 177, 177);
+    text-shadow: 5px 3px 10px rgb(2, 2, 2);
+  }
+
+  .contenedorubi {
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+  }
+  
+  .ubicacionmapa {
+    flex-basis: 300px;
+    margin: 10px;
+  }
+  
+  .grupoMapas {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .ubicacionmapa {
+    margin: 0 10px;
+  }
