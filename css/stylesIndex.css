@@ -253,8 +253,68 @@ a:hover{
                 5px 10px 110px rgba(0, 252, 252, 0.3); 
 }
 
+.section4{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 15px;
+    background: linear-gradient(340deg, rgb(11, 175, 153) 0%, rgb(93, 205, 223) 20%, rgb(255, 255, 255) 100%);
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group textarea {
+    padding: 8px;
+    font-size: 16px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #f8fdfd;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    width: 50%;
+    text-align: center;
+}
+
+.imagenError404{
+    width: 100%;
+}
+
+.margenSuperior{
+    padding-top: 5%;
+}
 
 
+@media screen and (min-width: 991px){
+    .imagenError404{
+        width: 100%;
+    }
+}
 /* VISTAS EN OTRAS RESOLUCIONES */
 
 /* MEDIUM ≥768px */
@@ -521,6 +581,23 @@ a:hover{
         box-shadow: 5px 10px 110px rgba(233, 229, 229, 0.3),
                     5px 10px 110px rgba(0, 252, 252, 0.3); 
     }
+    .input-group {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .input-group label {
+        margin-right: 10px;
+    }
+
+    .input-group input,
+    .input-group textarea {
+        width: 100%;
+    }
+    .imagenError404{
+        width: 100%;
+        padding-top: 20%;
+    }
     
 }
 @media screen and (max-width: 576px){
@@ -780,6 +857,19 @@ a:hover{
         transition: 0.3s;
         box-shadow: 5px 10px 110px rgba(233, 229, 229, 0.3), 
                     5px 10px 110px rgba(0, 252, 252, 0.3); 
+    }
+    .input-group label {
+        font-size: 14px;
+    }
+
+    .input-group input,
+    .input-group textarea {
+        font-size: 14px;
+    }
+    .imagenError404{
+        width: 100%;
+        padding-top: 30%;
+        padding-bottom: 30%;
     }
 }
 
@@ -1189,14 +1279,14 @@ margin-top: 20px;
    
     background-image: linear-gradient(to bottom,  rgba(2,0,36,1), #1693A5);
 }
-.container a:hover{
+.containerNotis a:hover{
     background-color: #1693A5;
    }
-.container a:active{
+.containerNotis a:active{
        background-color: #1693A5;
       }
 
-.container{
+.containerNotis{
     background-color: #1693A5;
     display: flex;
     flex-wrap: wrap;
