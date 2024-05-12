@@ -42,6 +42,10 @@ a:hover{
     color: rgb(49, 0, 33);
     
 }
+label{
+    font-weight: 500;
+    font-style: oblique;
+}
 
 /* CLASES PARA NAVBAR*/
 
@@ -109,7 +113,7 @@ a:hover{
     font: "Ubuntu", sans-serif;
     font-size: 200%;
 
-    animation: aparecer 3s forwards;  
+    animation: aparecer 5s forwards;  
   }
 
   @keyframes aparecer{
@@ -128,6 +132,13 @@ a:hover{
 .espaciosLaterales{
     padding-left: 10%;
     padding-right: 10%;
+}
+.espacioDerecha{
+    margin-right: 5%;
+}
+
+.margenLateral{
+    width: 90%;
 }
 
 /* SEGUNDA SECCION - CLASES PARA CARRUSEL */
@@ -310,10 +321,12 @@ a:hover{
 }
 
 
+
 @media screen and (min-width: 991px){
     .imagenError404{
         width: 100%;
     }
+    
 }
 /* VISTAS EN OTRAS RESOLUCIONES */
 
@@ -597,6 +610,10 @@ a:hover{
     .imagenError404{
         width: 100%;
         padding-top: 20%;
+    }
+    .grupoRadio{
+        display: flex;
+        flex-grow: 1;
     }
     
 }
