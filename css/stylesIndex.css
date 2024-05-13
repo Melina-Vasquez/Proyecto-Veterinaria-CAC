@@ -531,11 +531,6 @@ label{
         background: linear-gradient(174deg, rgba(2,0,36,1) 0%, rgba(22,147,165,1) 59%, rgba(0,212,255,1) 100%);
     }
 
-    .alimento1{
-        width: 50%;
-        height: 60%;
-    }
-
     .centradoTexto h6{
         font-size: 13px;
     }
