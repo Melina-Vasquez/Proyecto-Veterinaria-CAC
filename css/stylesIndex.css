@@ -162,7 +162,7 @@ label{
 
 .centradoTextoTitulo{
     text-align: center;
-    
+    font-size: 45px;
     margin-top: 3%;
     margin-bottom: 3%;
     color: hsla(172, 27%, 17%, 0.9);
@@ -173,7 +173,7 @@ label{
 }
 .centradoTextoTitulo2{
     text-align: center;
-   
+    font-size: 45px;
     margin-bottom: 3%;
     padding-top: 3%;
     color: hsla(172, 27%, 17%, 0.9);
@@ -749,8 +749,6 @@ label{
         -webkit-text-stroke-color: rgb(4, 72, 77);
     }
     .textoParrafoCarrusel{
-        color:rgb(2, 22, 22);
-        text-shadow: 1px 3px 1px rgb(14, 13, 13);
         font-size: 10px;
         margin-bottom: 12%;
     }
@@ -895,16 +893,17 @@ label{
 
 /*seccion quines somos*/
 .seccionContenido {
-    background-color: #1693A5;
+    background: rgb(143, 224, 236);
+    background: linear-gradient(174deg, rgb(214, 244, 248) 0%, rgb(145, 229, 241) 59%, rgb(186, 218, 224) 100%);
 }
 
 .conteiner{
     text-align: center;
 }
 .conteiner h2{
-    text-decoration: underline;    
-    color: rgb(172, 177, 177);
-    text-shadow: 5px 3px 10px rgb(2, 2, 2);
+    color: hsla(172, 27%, 17%, 0.9);
+    text-shadow: 1px 1px 3px rgb(43, 46, 226);
+    padding-bottom: 2%;
 }
 .imgprincipal {
     display: flex;
@@ -922,16 +921,17 @@ label{
     
   }
   .ubicacion{
-    background-color: #1693A5;
+    background: rgb(143, 224, 236);
+    background: linear-gradient(174deg, rgb(214, 244, 248) 0%, rgb(145, 229, 241) 59%, rgb(186, 218, 224) 100%);
   }
   .ubicacion h2{
-    text-decoration: underline;    
-    color: rgb(172, 177, 177);
-    text-shadow: 5px 3px 10px rgb(2, 2, 2);
+    padding-top: 2%;
+    color: hsla(172, 27%, 17%, 0.9);
+    text-shadow: 1px 1px 3px rgb(43, 46, 226);
+    padding-bottom: 2%;
   }
 
   .contenedorubi {
-    
         display: flex;
         flex-direction: column;
         align-items: center; 
@@ -980,9 +980,6 @@ label{
         text-align: center;
         opacity: 0;
         color: hsla(0, 25%, 92%, 0.9);
-        text-shadow: 2px 2px 5px blueviolet;
-        -webkit-text-stroke-color: 3px;
-        -webkit-text-stroke-color: black;
         font: "Ubuntu", sans-serif;
         font-size: 300%;
         animation: aparecer 3s forwards;
@@ -996,10 +993,8 @@ label{
         text-align: justify;
         opacity: 0;
         color: hsla(0, 25%, 92%, 0.9);
-        text-shadow: 2px 2px 5px blueviolet;
-        -webkit-text-stroke-color: 3px;
-        -webkit-text-stroke-color: black;
         font: "Ubuntu", sans-serif;
+        font-weight: 500;
         font-size: 150%;
         animation: aparecer 3s forwards;
         margin-right: 0%;
@@ -1021,15 +1016,12 @@ label{
         margin-top: 0%;
         padding-top: 30px;
         padding-bottom: 30px;
-        
-       
-        background: linear-gradient(174deg, rgba(2,0,36,1) 0%, rgba(22,147,165,1) 59%, rgba(0,212,255,1) 100%); 
+        color: hsla(172, 27%, 17%, 0.9);
+        text-shadow: 1px 1px 1px rgb(43, 46, 226);
+        background: rgb(143, 224, 236);
+    background: linear-gradient(174deg, rgb(214, 244, 248) 0%, rgb(145, 229, 241) 59%, rgb(186, 218, 224) 100%);
         height: 500%;
         opacity: 0;
-        color: hsla(0, 25%, 92%, 0.9);
-        text-shadow: 2px 2px 5px blueviolet;
-        -webkit-text-stroke-color: 1px;
-        -webkit-text-stroke-color: black;
         font: "Ubuntu", sans-serif;
         font-size: 100%;
         animation: aparecer 3s forwards;
@@ -1040,9 +1032,6 @@ label{
         text-align: center;
         opacity: 0;
         color: hsla(0, 25%, 92%, 0.9);
-        text-shadow: 2px 2px 5px blueviolet;
-        -webkit-text-stroke-color: 1px;
-        -webkit-text-stroke-color: black;
         font: "Ubuntu", sans-serif;
         font-size: 100%;
         animation: aparecer 3s forwards;
@@ -1071,48 +1060,49 @@ label{
 
      /* #8 */
     .BPBlack{
-        color: whitesmoke;
-        background-color: rgb(147, 219, 147);
+        background: rgb(143, 224, 236);
+    background: linear-gradient(174deg, rgb(214, 244, 248) 0%, rgb(145, 229, 241) 59%, rgb(186, 218, 224) 100%);
+        background-color: #000000;
         border-radius: 5px;
         border-color: black;
         border-width: 8px;
         text-align: Center;
-        padding: 5px;
+        padding: 10px;
         font-size: 120%;
     }
     .BPFlex{
-        color: whitesmoke;
-        background-color: rgb(96, 142, 240);
+        background: rgb(143, 224, 236);
+    background: linear-gradient(174deg, rgb(214, 244, 248) 0%, rgb(145, 229, 241) 59%, rgb(186, 218, 224) 100%);
+        background-color: #000000;
         border-radius: 5px;
         border-color: black;
         border-width: 8px;
         text-align: center;
-        padding: 5px;
+        padding: 10px;
         font-size: 120%
     } 
     .BPSelect{
-        color: whitesmoke;
-        background-color: rgb(230, 156, 230);
+        background: rgb(143, 224, 236);
+    background: linear-gradient(174deg, rgb(214, 244, 248) 0%, rgb(145, 229, 241) 59%, rgb(186, 218, 224) 100%);
+        background-color: #000000;
         border-radius: 5px;
         border-color: black;
         border-width: 8px;
         text-align: center;
-        padding: 5px;
+        padding: 10px;
         font-size: 120%
     } 
     /* #9 */
     .textoPlanesPrepaga {
+        padding-top: 2%;
         text-align: center;
         opacity: 0;
-        color: hsla(0, 25%, 92%, 0.9);
-        text-shadow: 2px 2px 5px blueviolet;
-        -webkit-text-stroke-color: 1px;
-        -webkit-text-stroke-color: black;
+        color: hsla(172, 27%, 17%, 0.9);
         font: "Ubuntu", sans-serif;
         font-size: 80%;
         animation: aparecer 3s forwards;
         border: 0px;
-        padding: 0%;
+        
         margin: 0%;
 }
 
@@ -1124,13 +1114,12 @@ label{
     align-items: top;
     text-align: top;
     text-justify: auto;
-    text-decoration: whitesmoke;
-    text-decoration: underline;
-    background: linear-gradient(174deg, rgba(2,0,36,1) 0%, rgba(22,147,165,1) 59%, rgba(0,212,255,1) 100%);
+    background: rgb(143, 224, 236);
+    background: linear-gradient(174deg, rgb(214, 244, 248) 0%, rgb(145, 229, 241) 59%, rgb(186, 218, 224) 100%);
     opacity: 0;
-    color: hsla(0, 25%, 92%, 0.9);
-    text-shadow: 2px 2px 5px blueviolet;
-    -webkit-text-stroke-color: 1px;
+    color: hsla(172, 27%, 17%, 0.9);
+    text-shadow: 1px 1px 3px rgb(43, 46, 226);
+    -webkit-text-stroke-color: 2px;
     -webkit-text-stroke-color: black;
     font: "Ubuntu", sans-serif;
     font-size: 80%;
@@ -1146,10 +1135,10 @@ label{
 display: flex;
 text-align: center;
 opacity: 0;
-color: hsla(0, 25%, 92%, 0.9);
-text-shadow: 2px 2px 5px blueviolet;
--webkit-text-stroke-color: 1px;
--webkit-text-stroke-color: black;
+color: hsla(172, 100%, 50%, 0.9);
+    text-shadow: 1px 1px 3px rgb(1, 1, 15);
+    -webkit-text-stroke-color: 2px;
+    -webkit-text-stroke-color: black;
 font: "Ubuntu", sans-serif;
 font-size: 100%;
 animation: aparecer 3s forwards;
@@ -1167,8 +1156,8 @@ margin-top: 20px;
         align-items: center;
         text-align: center;
         flex-wrap: wrap;
-        text-decoration: whitesmoke;
-        background: linear-gradient(174deg, rgba(2,0,36,1) 0%, rgba(22,147,165,1) 59%, rgba(0,212,255,1) 100%);
+        background: rgb(143, 224, 236);
+    background: linear-gradient(174deg, rgb(214, 244, 248) 0%, rgb(145, 229, 241) 59%, rgb(186, 218, 224) 100%);
         padding: auto;
         margin-top: 0%;
         padding: 0%;
@@ -1182,9 +1171,9 @@ margin-top: 20px;
        
         text-align: center;
         opacity: 0;
-        color: hsla(0, 25%, 92%, 0.9);
-        text-shadow: 2px 2px 5px blueviolet;
-        -webkit-text-stroke-color: 1px;
+        color: hsla(172, 27%, 17%, 0.9);
+        text-shadow: 1px 1px 3px rgb(43, 46, 226);
+        -webkit-text-stroke-color: 2px;
         -webkit-text-stroke-color: black;
         font: "Ubuntu", sans-serif;
         font-size: 100%;
@@ -1196,6 +1185,7 @@ margin-top: 20px;
         .preciosPeluqueria {
             display: flex;
             flex-wrap: wrap;
+            color: hsla(172, 27%, 17%, 0.9);
             justify-content: space-around;
             max-width: 90%;
             }
@@ -1211,9 +1201,11 @@ margin-top: 20px;
         .textoPreciosPeluqueria img {
         width: 60%;
         height: auto;
+        margin-top: 5%;
          }
            /* #16 */  
         .textoCortes {
+            margin: 2%;
         font-size: 1.2em;
         }
         /*Atencion Guarderia */
@@ -1225,13 +1217,13 @@ margin-top: 20px;
             align-items: center;
             text-align: center;
             flex-wrap: wrap;
-            text-decoration: whitesmoke;
-            background: linear-gradient(174deg, rgba(2,0,36,1) 0%, rgba(22,147,165,1) 59%, rgba(0,212,255,1) 100%);
+            background: rgb(143, 224, 236);
+    background: linear-gradient(174deg, rgb(214, 244, 248) 0%, rgb(145, 229, 241) 59%, rgb(186, 218, 224) 100%);
             padding: auto;
             margin-top: 0%;
             padding: 0%;
             border: 0px;
-            color: white;
+            color: hsla(172, 27%, 17%, 0.9);
             text-align: center;
         }
              /* #18 */    
@@ -1244,9 +1236,9 @@ margin-top: 20px;
         .textoGuarderia {
         text-align: center;
         opacity: 0;
-        color: hsla(0, 25%, 92%, 0.9);
-        text-shadow: 2px 2px 5px blueviolet;
-        -webkit-text-stroke-color: 1px;
+        color: hsla(172, 27%, 17%, 0.9);
+        text-shadow: 1px 1px 3px rgb(43, 46, 226);
+        -webkit-text-stroke-color: 2px;
         -webkit-text-stroke-color: black;
         font: "Ubuntu", sans-serif;
         font-size: 100%;
@@ -1263,7 +1255,7 @@ margin-top: 20px;
         justify-content: center;
         align-items: center;
         text-align: center;
-        color: white;
+        color: hsla(172, 27%, 17%, 0.9);
         padding: 20px; 
        
                    
@@ -1297,17 +1289,21 @@ margin-top: 20px;
 /*seccion notimascotas*/
 #principal-noti{
    
-    background-image: linear-gradient(to bottom,  rgba(2,0,36,1), #1693A5);
+    background: rgb(143, 224, 236);
+    background: linear-gradient(174deg, rgb(214, 244, 248) 0%, rgb(145, 229, 241) 59%, rgb(186, 218, 224) 100%);
 }
 .containerNotis a:hover{
-    background-color: #1693A5;
+    background: rgb(143, 224, 236);
+    background: linear-gradient(174deg, rgb(214, 244, 248) 0%, rgb(145, 229, 241) 59%, rgb(186, 218, 224) 100%);
    }
 .containerNotis a:active{
-       background-color: #1693A5;
+    background: rgb(143, 224, 236);
+    background: linear-gradient(174deg, rgb(214, 244, 248) 0%, rgb(145, 229, 241) 59%, rgb(186, 218, 224) 100%);
       }
 
 .containerNotis{
-    background-color: #1693A5;
+    background: rgb(143, 224, 236);
+    background: linear-gradient(174deg, rgb(214, 244, 248) 0%, rgb(145, 229, 241) 59%, rgb(186, 218, 224) 100%);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -1347,7 +1343,8 @@ margin-top: 20px;
     }
     
 .notis{
-    background: linear-gradient( to bottom, #1693A5 100%, rgb(4, 198, 236) 0%);
+    background: rgb(143, 224, 236);
+    background: linear-gradient(174deg, rgb(214, 244, 248) 0%, rgb(145, 229, 241) 59%, rgb(186, 218, 224) 100%);
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 5%;
