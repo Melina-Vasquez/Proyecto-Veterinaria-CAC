@@ -17,8 +17,8 @@ body{
 header{
     display: flex;
     justify-content: center;
-    background: rgb(2,0,36);
-    background: linear-gradient(174deg, rgba(2,0,36,1) 0%, rgba(22,147,165,1) 59%, rgba(0,212,255,1) 100%);
+    background: rgb(14, 106, 121,1);
+    background: linear-gradient(174deg, rgb(14, 106, 121,1) 0%, rgba(22,147,165,1) 59%, rgba(0,212,255,1) 100%);
 
 }
 main{
@@ -35,7 +35,7 @@ a{
     color: rgb(220, 228, 227);
     text-decoration: none;
     font-weight: 900;
-    text-shadow: 1px 3px 5px rgb(55, 7, 230);
+    text-shadow: 1px 3px 5px rgb(43, 46, 226);
 }
 a:hover{
     transition: 0.3s;
@@ -50,11 +50,10 @@ label{
 /* CLASES PARA NAVBAR*/
 
 .contenedorNavbar{
-    width: 95%;
+    width: 100%;
     text-align: center;
-    background: rgb(2,0,36);
-    background: linear-gradient(174deg, rgba(2,0,36,1) 0%, rgba(22,147,165,1) 59%, rgba(0,212,255,1) 100%);
-    padding: 10px 50px 20px 10px;
+    background: rgb(14, 106, 121,1);
+    background: linear-gradient(174deg, rgb(14, 106, 121,1) 0%, rgba(22,147,165,1) 59%, rgba(0,212,255,1) 100%);padding: 10px 50px 20px 10px;
     display: flex;
     justify-content: space-between;
 }
@@ -73,8 +72,8 @@ label{
     display: grid;
     text-align: center;
     grid-template-columns: 1fr 1fr 1fr;
-    background: rgb(2,0,36);
-    background: linear-gradient(174deg, rgba(2,0,36,1) 0%, rgba(22,147,165,1) 59%, rgba(0,212,255,1) 100%);
+    background: rgb(14, 106, 121,1);
+    background: linear-gradient(174deg, rgb(14, 106, 121,1) 0%, rgba(22,147,165,1) 59%, rgba(0,212,255,1) 100%);
 }
 
 .linkFooter li{
@@ -106,12 +105,13 @@ label{
 .textoPrincipal {
     text-align: center;
     opacity: 0;
-    color: hsla(0, 25%, 92%, 0.9);
-    text-shadow: 2px 2px 5px blueviolet;
-    -webkit-text-stroke-color: 3px;
+    color: hsla(172, 27%, 17%, 0.9);
+    text-shadow: 1px 1px 3px rgb(43, 46, 226);
+    -webkit-text-stroke-color: 2px;
     -webkit-text-stroke-color: black;
     font: "Ubuntu", sans-serif;
     font-size: 200%;
+   
 
     animation: aparecer 5s forwards;  
   }
@@ -146,41 +146,41 @@ label{
 .textoTituloCarrusel{
     color:rgb(10, 238, 238);
     text-shadow: 5px 3px 10px rgb(2, 2, 2);
-    font-size: 40px;
+    font-size: 70px;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: rgb(4, 72, 77);
 }
 .textoParrafoCarrusel{
-    color: black;
-    text-shadow: 1px 1px 1px white;
+    color:rgb(10, 238, 238);
+    text-shadow: 5px 3px 10px rgb(14, 13, 13);
     font-size: 25px;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(4, 136, 141);
+    -webkit-text-stroke-color: rgb(239, 243, 243);
     margin-bottom: 30%;
 }
 
 
 .centradoTextoTitulo{
     text-align: center;
-    text-decoration: underline;
+    
     margin-top: 3%;
     margin-bottom: 3%;
-    color:rgb(10, 238, 238);
-    text-shadow: 5px 3px 10px rgb(2, 2, 2);
-    font-size: 40px;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: rgb(4, 72, 77);
+    color: hsla(172, 27%, 17%, 0.9);
+    text-shadow: 1px 1px 3px rgb(43, 46, 226);
+    -webkit-text-stroke-color: 2px;
+    -webkit-text-stroke-color: black;
+    font: "Ubuntu", sans-serif;
 }
 .centradoTextoTitulo2{
     text-align: center;
-    text-decoration: underline;
+   
     margin-bottom: 3%;
     padding-top: 3%;
-    color:rgb(255, 255, 255);
-    text-shadow: 5px 3px 10px rgb(3, 2, 2);
-    font-size: 40px;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: rgb(79, 94, 95);
+    color: hsla(172, 27%, 17%, 0.9);
+    text-shadow: 1px 1px 3px rgb(43, 46, 226);
+    -webkit-text-stroke-color: 2px;
+    -webkit-text-stroke-color: black;
+    font: "Ubuntu", sans-serif;
 }
 
 .centradoTexto{
@@ -203,16 +203,16 @@ label{
     padding-right: 15px;
     padding-bottom: 15px;
     margin-top: 0px;
-    background: rgb(2,0,36);
-    background: linear-gradient(174deg, rgba(2,0,36,1) 0%, rgba(22,147,165,1) 59%, rgba(0,212,255,1) 100%);
+    background: rgb(143, 224, 236);
+    background: linear-gradient(174deg, rgb(214, 244, 248) 0%, rgb(145, 229, 241) 59%, rgb(186, 218, 224) 100%);
 }
 
 .section3{
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
-    background: rgb(2,0,36);
-    background: linear-gradient(174deg, rgba(2,0,36,1) 0%, rgba(22,147,165,1) 59%, rgba(0,212,255,1) 100%);
+    background: rgb(143, 224, 236);
+    background: linear-gradient(174deg, rgb(214, 244, 248) 0%, rgb(145, 229, 241) 59%, rgb(186, 218, 224) 100%);
 }
 
 /* ULTIMA SECCION */
@@ -227,8 +227,7 @@ label{
 .tituloPlan{
     color: crimson;
     font-size: 50px;
-    text-shadow: 2px 5px 3px rgb(22,147,165);
-    -webkit-text-stroke-width: 1px;
+ 
 }
 
 .boton{
@@ -243,9 +242,7 @@ label{
 .parrafoPlan{
     color: rgb(208, 216, 216);
     font-size: 20px;
-    text-shadow: 2px 2px 1px darkblue;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    font-weight: 500;
     
 }
 .animaPlan{
@@ -268,7 +265,8 @@ label{
     padding-left: 15%;
     padding-right: 15%;
     padding-bottom: 15px;
-    background: linear-gradient(340deg, rgb(11, 175, 153) 0%, rgb(93, 205, 223) 20%, rgb(255, 255, 255) 100%);
+    background: rgb(143, 224, 236);
+    background: linear-gradient(174deg, rgb(214, 244, 248) 0%, rgb(145, 229, 241) 59%, rgb(186, 218, 224) 100%);;
 }
 
 .input-group {
@@ -342,7 +340,7 @@ label{
         color: rgb(220, 228, 227);
         text-decoration: none;
         font-weight: 900;
-        text-shadow: 1px 3px 5px rgb(55, 7, 230);
+        text-shadow: 1px 3px 5px rgb(43, 46, 226);
     }
     a:hover{
         transition: 0.3s;
@@ -359,8 +357,8 @@ label{
     .contenedorNavbar{
         width: 100%;
         text-align: center;
-        background: rgb(2,0,36);
-        background: linear-gradient(174deg, rgba(2,0,36,1) 0%, rgba(22,147,165,1) 59%, rgba(0,212,255,1) 100%);
+        background: rgb(14, 106, 121,1);
+        background: linear-gradient(174deg, rgb(14, 106, 121,1) 0%, rgba(22,147,165,1) 59%, rgba(0,212,255,1) 100%);
         padding: 20px 0px 20px 0px;
         display: flex;
         justify-content: center;
@@ -381,8 +379,8 @@ label{
         display: grid;
         text-align: center;
         grid-template-columns: 1fr 1.5fr 1fr;
-        background: rgb(2,0,36);
-        background: linear-gradient(174deg, rgba(2,0,36,1) 0%, rgba(22,147,165,1) 59%, rgba(0,212,255,1) 100%);
+        background: rgb(14, 106, 121,1);
+        background: linear-gradient(174deg, rgb(14, 106, 121,1) 0%, rgba(22,147,165,1) 59%, rgba(0,212,255,1) 100%);
         column-gap: 1%;
     }
     
@@ -428,9 +426,9 @@ label{
     .textoPrincipal {
         text-align: center;
         opacity: 0;
-        color: hsla(0, 25%, 92%, 0.9);
-        text-shadow: 2px 2px 5px blueviolet;
-        -webkit-text-stroke-color: 3px;
+        color: hsla(172, 27%, 17%, 0.9);
+        text-shadow: 1px 1px 3px rgb(43, 46, 226);
+        -webkit-text-stroke-color: 2px;
         -webkit-text-stroke-color: black;
         font: "Ubuntu", sans-serif;
         font-size: 100%;
@@ -461,16 +459,16 @@ label{
     .textoTituloCarrusel{
         color:rgb(10, 238, 238);
         text-shadow: 5px 3px 10px rgb(2, 2, 2);
-        font-size: 25px;
+        font-size: 40px;
         -webkit-text-stroke-width: 2px;
         -webkit-text-stroke-color: rgb(4, 72, 77);
     }
     .textoParrafoCarrusel{
-        color: black;
-        text-shadow: 1px 2px 1px rgb(2, 1, 1);
-        font-size: 15px;
+        color:rgb(10, 238, 238);
+        text-shadow: 5px 3px 10px rgb(14, 13, 13);
+        font-size: 20px;
         -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: rgb(4, 136, 141);
+        -webkit-text-stroke-color: rgb(239, 243, 243);
         margin-bottom: 25%;
     }
     
@@ -478,25 +476,27 @@ label{
     
     .centradoTextoTitulo{
         text-align: center;
-        text-decoration: underline;
+        
         margin-top: 3%;
         margin-bottom: 3%;
-        color:rgb(10, 238, 238);
-        text-shadow: 5px 3px 10px rgb(2, 2, 2);
+        color: hsla(172, 27%, 17%, 0.9);
+        text-shadow: 1px 1px 3px rgb(43, 46, 226);
         font-size: 25px;
-        -webkit-text-stroke-width: 2px;
-        -webkit-text-stroke-color: rgb(4, 72, 77);
+        -webkit-text-stroke-color: 2px;
+        -webkit-text-stroke-color: black;
+        font: "Ubuntu", sans-serif;
     }
     .centradoTextoTitulo2{
         text-align: center;
-        text-decoration: underline;
+       
         margin-bottom: 3%;
         padding-top: 3%;
-        color:rgb(255, 255, 255);
-        text-shadow: 5px 3px 10px rgb(3, 2, 2);
+        color: hsla(172, 27%, 17%, 0.9);
+        text-shadow: 1px 1px 3px rgb(43, 46, 226);
         font-size: 25px;
-        -webkit-text-stroke-width: 2px;
-        -webkit-text-stroke-color: rgb(79, 94, 95);
+        -webkit-text-stroke-color: 2px;
+        -webkit-text-stroke-color: black;
+        font: "Ubuntu", sans-serif;
     }
     
     .centradoTexto{
@@ -519,16 +519,16 @@ label{
         padding-right: 15px;
         padding-bottom: 15px;
         margin-top: 0px;
-        background: rgb(2,0,36);
-        background: linear-gradient(174deg, rgba(2,0,36,1) 0%, rgba(22,147,165,1) 59%, rgba(0,212,255,1) 100%);
+        background: rgb(143, 224, 236);
+        background: linear-gradient(174deg, rgb(214, 244, 248) 0%, rgb(145, 229, 241) 59%, rgb(186, 218, 224) 100%);
     }
     
     .section3{
         padding-left: 15px;
         padding-right: 15px;
         padding-bottom: 15px;
-        background: rgb(2,0,36);
-        background: linear-gradient(174deg, rgba(2,0,36,1) 0%, rgba(22,147,165,1) 59%, rgba(0,212,255,1) 100%);
+        background: rgb(143, 224, 236);
+        background: linear-gradient(174deg, rgb(214, 244, 248) 0%, rgb(145, 229, 241) 59%, rgb(186, 218, 224) 100%);
     }
 
     .centradoTexto h6{
@@ -552,9 +552,8 @@ label{
     
     .tituloPlan{
         color: crimson;
-        font-size: 30px;
-        text-shadow: 2px 5px 3px rgb(22,147,165);
-        -webkit-text-stroke-width: 1px;
+        font-size: 20px;
+     
     }
     
     .boton{
@@ -567,11 +566,9 @@ label{
     }
     
     .parrafoPlan{
-        color: rgb(0, 0, 0);
-        font-size: 13px;
-        text-shadow: 1px 1px 1px rgb(10, 10, 231);
-        -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: rgb(194, 6, 6);
+        color: rgb(208, 216, 216);
+        font-size: 15px;
+        font-weight: 500;
         
     }
     .animaPlan{
@@ -608,7 +605,18 @@ label{
     }
     .grupoRadio{
         display: flex;
+        align-items: center;
         flex-grow: 1;
+    }
+    .section4{
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-bottom: 15px;
+        background: rgb(143, 224, 236);
+        background: linear-gradient(174deg, rgb(214, 244, 248) 0%, rgb(145, 229, 241) 59%, rgb(186, 218, 224) 100%);;
+    }
+    .radioButton{
+        height: 20px;
     }
     
 }
@@ -636,8 +644,8 @@ label{
     .contenedorNavbar{
         width: 100%;
         text-align: center;
-        background: rgb(2,0,36);
-        background: linear-gradient(174deg, rgba(2,0,36,1) 0%, rgba(22,147,165,1) 59%, rgba(0,212,255,1) 100%);
+        background: rgb(14, 106, 121,1);
+         background: linear-gradient(174deg, rgb(14, 106, 121,1) 0%, rgba(22,147,165,1) 59%, rgba(0,212,255,1) 100%);
         padding: 20px 0px 5px 0px;
         display: flex;
         flex-direction: column;
@@ -661,8 +669,8 @@ label{
         text-align: center;
         grid-template-columns: 1fr;
         gap:3%;
-        background: rgb(2,0,36);
-        background: linear-gradient(174deg, rgba(2,0,36,1) 0%, rgba(22,147,165,1) 59%, rgba(0,212,255,1) 100%);
+        background: rgb(14, 106, 121,1);
+        background: linear-gradient(174deg, rgb(14, 106, 121,1) 0%, rgba(22,147,165,1) 59%, rgba(0,212,255,1) 100%);
     }
     
     .linkFooter li{
@@ -702,8 +710,8 @@ label{
     .textoPrincipal {
         text-align: center;
         opacity: 0;
-        color: hsla(0, 25%, 92%, 0.9);
-        text-shadow: 2px 2px 5px blueviolet;
+        color: hsla(172, 27%, 17%, 0.9);
+        text-shadow: 1px 1px 3px rgb(43, 46, 226);
         -webkit-text-stroke-color: 3px;
         -webkit-text-stroke-color: black;
         font: "Ubuntu", sans-serif;
@@ -741,11 +749,9 @@ label{
         -webkit-text-stroke-color: rgb(4, 72, 77);
     }
     .textoParrafoCarrusel{
-        color: rgb(218, 212, 212);
-        text-shadow: 1px 1px 10px rgb(0, 0, 0);
+        color:rgb(2, 22, 22);
+        text-shadow: 1px 3px 1px rgb(14, 13, 13);
         font-size: 10px;
-        -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: rgb(6, 88, 99);
         margin-bottom: 12%;
     }
 
@@ -753,25 +759,24 @@ label{
     
     .centradoTextoTitulo{
         text-align: center;
-        text-decoration: underline;
+        
         margin-top: 3%;
         margin-bottom: 3%;
-        color:rgb(10, 238, 238);
-        text-shadow: 5px 3px 10px rgb(2, 2, 2);
+        color: hsla(172, 27%, 17%, 0.9);
+        text-shadow: 1px 1px 3px rgb(43, 46, 226);   
         font-size: 20px;
-        -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: rgb(4, 72, 77);
+        
     }
     .centradoTextoTitulo2{
         text-align: center;
-        text-decoration: underline;
+        
         margin-bottom: 10%;
         padding-top: 10%;
-        color:rgb(255, 255, 255);
-        text-shadow: 5px 3px 10px rgb(3, 2, 2);
+        color: hsla(172, 27%, 17%, 0.9);
+        text-shadow: 1px 1px 3px rgb(43, 46, 226);
         font-size: 20px;
-        -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: rgb(79, 94, 95);
+
+        font: "Ubuntu", sans-serif;
     }
     
     .centradoTexto{
@@ -809,16 +814,16 @@ label{
         padding-right: 15px;
         padding-bottom: 15px;
         margin-top: 0px;
-        background: rgb(2,0,36);
-        background: linear-gradient(174deg, rgba(2,0,36,1) 0%, rgba(22,147,165,1) 59%, rgba(0,212,255,1) 100%);
+        background: rgb(143, 224, 236);
+    background: linear-gradient(174deg, rgb(214, 244, 248) 0%, rgb(145, 229, 241) 59%, rgb(186, 218, 224) 100%);
     }
     
     .section3{
         padding-left: 15px;
         padding-right: 15px;
         padding-bottom: 15px;
-        background: rgb(2,0,36);
-        background: linear-gradient(174deg, rgba(2,0,36,1) 0%, rgba(22,147,165,1) 59%, rgba(0,212,255,1) 100%);
+        background: rgb(143, 224, 236);
+    background: linear-gradient(174deg, rgb(214, 244, 248) 0%, rgb(145, 229, 241) 59%, rgb(186, 218, 224) 100%);
     }
     
     /* ULTIMA SECCION */
@@ -833,8 +838,6 @@ label{
     .tituloPlan{
         color: crimson;
         font-size: 20px;
-        text-shadow: 2px 5px 3px rgb(22,147,165);
-        -webkit-text-stroke-width: 1px;
     }
     
     .boton{
@@ -849,10 +852,8 @@ label{
     .parrafoPlan{
         display: none;
         color: rgb(208, 216, 216);
-        font-size: 20px;
-        text-shadow: 2px 2px 1px darkblue;
-        -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: black;
+        font-size: 5px;
+
         
     }
     .animaPlan{
@@ -882,6 +883,13 @@ label{
         width: 100%;
         padding-top: 30%;
         padding-bottom: 30%;
+    }
+    .section2{
+        padding-bottom: 100px;
+    }
+    .margenSuperior{
+        padding-top: 5%;
+        padding-bottom: 10%;
     }
 }
 
