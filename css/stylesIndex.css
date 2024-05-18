@@ -47,6 +47,10 @@ label{
     font-style: oblique;
 }
 
+.filtroImagen{
+    filter: contrast(0.3) brightness(1.3);
+}
+
 /* CLASES PARA NAVBAR*/
 
 .contenedorNavbar{
@@ -144,19 +148,17 @@ label{
 /* SEGUNDA SECCION - CLASES PARA CARRUSEL */
 
 .textoTituloCarrusel{
-    color:rgb(10, 238, 238);
-    text-shadow: 5px 3px 10px rgb(2, 2, 2);
+    color: hsla(172, 27%, 17%, 0.9);
+    text-shadow: 1px 1px 1px rgb(43, 46, 226);
+    -webkit-text-stroke-color: 2px;
+    -webkit-text-stroke-color: black;
     font-size: 70px;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: rgb(4, 72, 77);
 }
 .textoParrafoCarrusel{
-    color:rgb(10, 238, 238);
-    text-shadow: 5px 3px 10px rgb(14, 13, 13);
+    color:rgb(0, 0, 0);
     font-size: 25px;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(239, 243, 243);
     margin-bottom: 30%;
+    font-weight: 400;
 }
 
 
@@ -454,19 +456,16 @@ label{
     /* CLASES PARA CARRUSEL */
     
     .textoTituloCarrusel{
-        color:rgb(10, 238, 238);
-        text-shadow: 5px 3px 10px rgb(2, 2, 2);
-        font-size: 40px;
-        -webkit-text-stroke-width: 2px;
-        -webkit-text-stroke-color: rgb(4, 72, 77);
+        color: hsla(172, 27%, 17%, 0.9);
+        text-shadow: 1px 1px 1px rgb(43, 46, 226);font-size: 40px;
+        -webkit-text-stroke-color: 2px;
+        -webkit-text-stroke-color: black;
     }
     .textoParrafoCarrusel{
-        color:rgb(10, 238, 238);
-        text-shadow: 5px 3px 10px rgb(14, 13, 13);
+        color:rgb(0, 0, 0);
         font-size: 20px;
-        -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: rgb(239, 243, 243);
         margin-bottom: 25%;
+        font-weight: 400;
     }
     
    /*TERCERA SECCION*/
@@ -739,15 +738,16 @@ label{
     /* SEGUNDA SECCION - CLASES PARA CARRUSEL */
     
     .textoTituloCarrusel{
-        color:rgb(10, 238, 238);
-        text-shadow: 5px 3px 10px rgb(2, 2, 2);
-        font-size: 20px;
-        -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: rgb(4, 72, 77);
+        color: hsla(172, 27%, 17%, 0.9);
+        text-shadow: 1px 1px 1px rgb(43, 46, 226);font-size: 20px;
+        -webkit-text-stroke-color: 2px;
+        -webkit-text-stroke-color: black;
     }
     .textoParrafoCarrusel{
+        color:rgb(0, 0, 0);
         font-size: 10px;
         margin-bottom: 12%;
+        font-weight: 400;
     }
 
       /* TERCERA SECCION */  
